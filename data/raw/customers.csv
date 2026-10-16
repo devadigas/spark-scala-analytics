@@ -1,0 +1,31 @@
+customer_id,segment,region,city
+C001,Home Office,North,Berlin
+C002,Home Office,East,Cologne
+C003,Consumer,South,
+C004,Home Office,North,Leipzig
+C005,Consumer,North,Hamburg
+C006,Consumer,South,Berlin
+C007,Home Office,South,Leipzig
+C008,Consumer,West,Frankfurt
+C009,Consumer,South,Leipzig
+C010,Corporate,East,Munich
+C011,Consumer,East,Hamburg
+C012,Consumer,West,Hamburg
+C013,Corporate,East,Frankfurt
+C014,Consumer,West,Hamburg
+C015,Corporate,North,Frankfurt
+C016,Home Office,East,Cologne
+C017,Home Office,North,Berlin
+C018,Home Office,South,Frankfurt
+C019,Consumer,South,Hamburg
+C020,Corporate,East,Stuttgart
+C021,Home Office,East,Munich
+C022,Corporate,East,Cologne
+C023,Home Office,East,Hamburg
+C024,Home Office,South,Cologne
+C025,Consumer,West,Leipzig
+C026,Corporate,South,Dusseldorf
+C027,Consumer,South,Berlin
+C028,Corporate,West,Frankfurt
+C029,Consumer,South,Dusseldorf
+C030,Consumer,West,Leipzig

@@ -1,0 +1,46 @@
+
+name: Spark Scala CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Set up Java
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: sbt
+
+      - name: Set up sbt
+        uses: sbt/setup-sbt@v1
+
+      - name: Clean build
+        run: sbt clean
+
+      - name: Run tests
+        run: sbt test
+
+      - name: Package application
+        run: sbt package
+
+      - name: Upload JAR artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: spark-scala-application
+          path: target/out/jvm/scala-*/spark-scala/spark-scala_*.jar
+          if-no-files-found: error
+          retention-days: 7

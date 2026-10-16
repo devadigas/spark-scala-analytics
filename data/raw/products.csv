@@ -1,0 +1,11 @@
+product_id,product_name,category,list_price,unit_cost
+P001,Laptop,Technology,850.0,610.0
+P002,Monitor,Technology,220.0,145.0
+P003,Desk,Furniture,180.0,130.0
+P004,Office Chair,Furniture,145.0,88.0
+P005,Notebook Pack,Office Supplies,12.5,4.2
+P006,Printer,Technology,190.0,132.0
+P007,Pen Set,Office Supplies,8.0,2.1
+P008,Bookshelf,Furniture,125.0,91.0
+P009,Headphones,Technology,75.0,39.0
+P010,Paper Ream,Office Supplies,6.5,3.4
